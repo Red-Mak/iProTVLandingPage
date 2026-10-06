@@ -2,23 +2,24 @@
   "format" : 1,
   "messages" : [
     {
-      "affichage" : "pages",
+      "affichage" : "bandeau",
       "boutons" : [
         {
-          "action" : "store",
+          "action" : "app",
           "textes" : {
-            "ar" : "xمتجر التطبيقات",
-            "da" : "store da",
-            "de" : "store de",
-            "en" : "store en",
-            "es" : "store es",
-            "fr" : "store fr",
-            "nb" : "store nb",
-            "pl" : "store pl",
-            "pl-PL" : "store pl-pl",
-            "sv" : "store sv",
-            "tr" : "store tr"
-          }
+            "ar" : "",
+            "da" : "",
+            "de" : "",
+            "en" : "pagesJaunes",
+            "es" : "",
+            "fr" : "",
+            "nb" : "",
+            "pl" : "",
+            "pl-PL" : "",
+            "sv" : "",
+            "tr" : ""
+          },
+          "url" : "https://www.pagesjaunes.fr/pros/58147855"
         }
       ],
       "cible" : {
