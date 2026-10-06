@@ -2,221 +2,206 @@
   "format": 1,
   "messages": [
     {
-      "format": 1,
-      "messages": [
+      "affichage": "feuille",
+      "boutons": [
         {
-          "format": 1,
-          "messages": [
-            {
-              "format": 1,
-              "messages": [
-                {
-                  "affichage": "feuille",
-                  "boutons": [
-                    {
-                      "action": "store",
-                      "textes": {
-                        "ar": "xمتجر التطبيقات",
-                        "da": "store da",
-                        "de": "store de",
-                        "en": "store en",
-                        "es": "store es",
-                        "fr": "store fr",
-                        "nb": "store nb",
-                        "pl": "store pl",
-                        "pl-PL": "store pl-pl",
-                        "sv": "store sv",
-                        "tr": "store tr"
-                      }
-                    }
-                  ],
-                  "cible": {
-                    "langues": [
-                      "en",
-                      "fr",
-                      "es",
-                      "de",
-                      "da",
-                      "sv",
-                      "nb",
-                      "pl",
-                      "pl-PL",
-                      "tr",
-                      "ar"
-                    ],
-                    "os": {
-                      "iOS": [
-                        "26.*"
-                      ],
-                      "iPadOS": [
-                        "*"
-                      ],
-                      "macOS": [
-                        "*"
-                      ],
-                      "tvOS": [
-                        "*"
-                      ]
-                    },
-                    "plateformes": [
-                      "iPhone",
-                      "iPad",
-                      "Mac",
-                      "AppleTV"
-                    ],
-                    "statuts": [
-                      "gratuit",
-                      "premium",
-                      "legacy"
-                    ]
-                  },
-                  "debutTimestamp": 1791318621,
-                  "fermable": true,
-                  "finTimestamp": 1791923421,
-                  "id": "test1",
-                  "points": [
-                    {
-                      "fournisseur": true,
-                      "premium": true,
-                      "symbole": "sparkles",
-                      "textes": {
-                        "ar": {
-                          "titre": ""
-                        },
-                        "da": {
-                          "titre": ""
-                        },
-                        "de": {
-                          "texte": "de\n\nthis feature is verry good ***yes it is***",
-                          "titre": ""
-                        },
-                        "en": {
-                          "texte": "en\n\nthis feature is verry good ***yes it is***",
-                          "titre": "new feature !!!!"
-                        },
-                        "es": {
-                          "titre": ""
-                        },
-                        "fr": {
-                          "texte": "fr\n\nthis feature is verry good ***yes it is***",
-                          "titre": "new feature !!!! fr"
-                        },
-                        "nb": {
-                          "titre": ""
-                        },
-                        "pl": {
-                          "titre": ""
-                        },
-                        "pl-PL": {
-                          "titre": ""
-                        },
-                        "sv": {
-                          "titre": ""
-                        },
-                        "tr": {
-                          "titre": ""
-                        }
-                      }
-                    },
-                    {
-                      "fournisseur": false,
-                      "premium": false,
-                      "symbole": "sparkles",
-                      "textes": {
-                        "ar": {
-                          "texte": "هذه الميزة رائعة جدًا ***نعم، إنها كذلك***\n",
-                          "titre": "ميزة جديدة "
-                        },
-                        "da": {
-                          "titre": ""
-                        },
-                        "de": {
-                          "titre": ""
-                        },
-                        "en": {
-                          "texte": "en\n\npoint 2\n\nthis feature is verry good ***yes it is***",
-                          "titre": "new feature 22222 !!!!"
-                        },
-                        "es": {
-                          "titre": ""
-                        },
-                        "fr": {
-                          "titre": "new feature 22222 !!!! fr"
-                        },
-                        "nb": {
-                          "titre": ""
-                        },
-                        "pl": {
-                          "titre": ""
-                        },
-                        "pl-PL": {
-                          "titre": ""
-                        },
-                        "sv": {
-                          "titre": ""
-                        },
-                        "tr": {
-                          "titre": ""
-                        }
-                      }
-                    }
-                  ],
-                  "symbole": "info.circle",
-                  "test": true,
-                  "textes": {
-                    "ar": {
-                      "texte": "\nهذه الميزة رائعة جدًا ***نعم، إنها كذلك***\n\n\n# دليل صيغة ماركداون\n\n## العناوين\n\n# هذا عنوان من المستوى h1\n## هذا عنوان من المستوى h2\n###### هذا عنوان من المستوى h6\n\n## التأكيد\n\n*سيظهر هذا النص بخط مائل*\n_سيظهر هذا أيضًا بخط مائل_\n\n**هذا النص سيكون بخط عريض**\n__هذا النص سيكون بخط عريض أيضًا__\n\n_**يمكنك** الجمع بينهما_\n\n## القوائم\n\n### غير مرتبة\n\n* البند 1\n* البند 2\n* البند 2أ\n* البند 2ب\n    * البند 3أ\n    * البند 3ب\n\n### مرتبة\n\n1. البند 1\n2. العنصر 2\n3. العنصر 3\n    1. العنصر 3أ\n    2. العنصر 3ب\n\n## الصور\n\n![هذا نص بديل.](/image/Markdown-mark.svg ”هذه صورة نموذجية.“)\n\n## الروابط\n\nربما تستخدم [معاينة Markdown المباشرة](https://markdownlivepreview.com/).\n\n## الاقتباسات\n\n> Markdown هي لغة ترميز خفيفة الوزن ذات صيغة تنسيق نص عادي، أنشأها جون غروبر مع آرون سوارتز في عام 2004.\n>\n>> غالبًا ما تُستخدم Markdown لتنسيق ملفات «readme»، وكتابة الرسائل في منتديات النقاش عبر الإنترنت، وإنشاء نص منسق باستخدام محرر نص عادي.\n\n## الجداول\n\n| الأعمدة اليسرى  | الأعمدة اليمنى |\n| ------------- |:-------------:|\n| foo الأيسر      | foo الأيمن     |\n| bar الأيسر      | bar الأيمن     |\n| baz الأيسر      | baz الأيمن     |\n\n## كتل الكود\n\n```\nlet message = ’Hello world‘;\nalert(message);\n```\n\n## مخططات Mermaid\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## كود مضمن\n\nيستخدم هذا الموقع الإلكتروني `markedjs/marked`.\n",
-                      "titre": ""
-                    },
-                    "da": {
-                      "texte": "da\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": ""
-                    },
-                    "de": {
-                      "texte": "de\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": ""
-                    },
-                    "en": {
-                      "surtitre": "en surtitle",
-                      "texte": "en\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": "en title"
-                    },
-                    "es": {
-                      "texte": "es\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": ""
-                    },
-                    "fr": {
-                      "surtitre": "fr surtitre",
-                      "texte": "fr \n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": "fr titre"
-                    },
-                    "nb": {
-                      "texte": "nb\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": ""
-                    },
-                    "pl": {
-                      "texte": "pl \n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": ""
-                    },
-                    "pl-PL": {
-                      "texte": "pl-pl\n\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": ""
-                    },
-                    "sv": {
-                      "texte": "sv \n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": ""
-                    },
-                    "tr": {
-                      "texte": "tr\n\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
-                      "titre": ""
-                    }
-                  }
-                }
-              ]
-            }
-          ]
+          "action": "store",
+          "textes": {
+            "ar": "xمتجر التطبيقات",
+            "da": "store da",
+            "de": "store de",
+            "en": "store en",
+            "es": "store es",
+            "fr": "store fr",
+            "nb": "store nb",
+            "pl": "store pl",
+            "pl-PL": "store pl-pl",
+            "sv": "store sv",
+            "tr": "store tr"
+          }
         }
-      ]
+      ],
+      "cible": {
+        "langues": [
+          "en",
+          "fr",
+          "es",
+          "de",
+          "da",
+          "sv",
+          "nb",
+          "pl",
+          "pl-PL",
+          "tr",
+          "ar"
+        ],
+        "os": {
+          "iOS": [
+            "26.*"
+          ],
+          "iPadOS": [
+            "*"
+          ],
+          "macOS": [
+            "*"
+          ],
+          "tvOS": [
+            "*"
+          ]
+        },
+        "plateformes": [
+          "iPhone",
+          "iPad",
+          "Mac",
+          "AppleTV"
+        ],
+        "statuts": [
+          "gratuit",
+          "premium",
+          "legacy"
+        ]
+      },
+      "debutTimestamp": 1791318621,
+      "fermable": true,
+      "finTimestamp": 1791923421,
+      "id": "test1",
+      "points": [
+        {
+          "fournisseur": true,
+          "premium": true,
+          "symbole": "sparkles",
+          "textes": {
+            "ar": {
+              "titre": ""
+            },
+            "da": {
+              "titre": ""
+            },
+            "de": {
+              "texte": "de\n\nthis feature is verry good ***yes it is***",
+              "titre": ""
+            },
+            "en": {
+              "texte": "en\n\nthis feature is verry good ***yes it is***",
+              "titre": "new feature !!!!"
+            },
+            "es": {
+              "titre": ""
+            },
+            "fr": {
+              "texte": "fr\n\nthis feature is verry good ***yes it is***",
+              "titre": "new feature !!!! fr"
+            },
+            "nb": {
+              "titre": ""
+            },
+            "pl": {
+              "titre": ""
+            },
+            "pl-PL": {
+              "titre": ""
+            },
+            "sv": {
+              "titre": ""
+            },
+            "tr": {
+              "titre": ""
+            }
+          }
+        },
+        {
+          "fournisseur": false,
+          "premium": false,
+          "symbole": "sparkles",
+          "textes": {
+            "ar": {
+              "texte": "هذه الميزة رائعة جدًا ***نعم، إنها كذلك***\n",
+              "titre": "ميزة جديدة "
+            },
+            "da": {
+              "titre": ""
+            },
+            "de": {
+              "titre": ""
+            },
+            "en": {
+              "texte": "en\n\npoint 2\n\nthis feature is verry good ***yes it is***",
+              "titre": "new feature 22222 !!!!"
+            },
+            "es": {
+              "titre": ""
+            },
+            "fr": {
+              "titre": "new feature 22222 !!!! fr"
+            },
+            "nb": {
+              "titre": ""
+            },
+            "pl": {
+              "titre": ""
+            },
+            "pl-PL": {
+              "titre": ""
+            },
+            "sv": {
+              "titre": ""
+            },
+            "tr": {
+              "titre": ""
+            }
+          }
+        }
+      ],
+      "symbole": "info.circle",
+      "test": true,
+      "textes": {
+        "ar": {
+          "texte": "\nهذه الميزة رائعة جدًا ***نعم، إنها كذلك***\n\n\n# دليل صيغة ماركداون\n\n## العناوين\n\n# هذا عنوان من المستوى h1\n## هذا عنوان من المستوى h2\n###### هذا عنوان من المستوى h6\n\n## التأكيد\n\n*سيظهر هذا النص بخط مائل*\n_سيظهر هذا أيضًا بخط مائل_\n\n**هذا النص سيكون بخط عريض**\n__هذا النص سيكون بخط عريض أيضًا__\n\n_**يمكنك** الجمع بينهما_\n\n## القوائم\n\n### غير مرتبة\n\n* البند 1\n* البند 2\n* البند 2أ\n* البند 2ب\n    * البند 3أ\n    * البند 3ب\n\n### مرتبة\n\n1. البند 1\n2. العنصر 2\n3. العنصر 3\n    1. العنصر 3أ\n    2. العنصر 3ب\n\n## الصور\n\n![هذا نص بديل.](/image/Markdown-mark.svg ”هذه صورة نموذجية.“)\n\n## الروابط\n\nربما تستخدم [معاينة Markdown المباشرة](https://markdownlivepreview.com/).\n\n## الاقتباسات\n\n> Markdown هي لغة ترميز خفيفة الوزن ذات صيغة تنسيق نص عادي، أنشأها جون غروبر مع آرون سوارتز في عام 2004.\n>\n>> غالبًا ما تُستخدم Markdown لتنسيق ملفات «readme»، وكتابة الرسائل في منتديات النقاش عبر الإنترنت، وإنشاء نص منسق باستخدام محرر نص عادي.\n\n## الجداول\n\n| الأعمدة اليسرى  | الأعمدة اليمنى |\n| ------------- |:-------------:|\n| foo الأيسر      | foo الأيمن     |\n| bar الأيسر      | bar الأيمن     |\n| baz الأيسر      | baz الأيمن     |\n\n## كتل الكود\n\n```\nlet message = ’Hello world‘;\nalert(message);\n```\n\n## مخططات Mermaid\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## كود مضمن\n\nيستخدم هذا الموقع الإلكتروني `markedjs/marked`.\n",
+          "titre": ""
+        },
+        "da": {
+          "texte": "da\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": ""
+        },
+        "de": {
+          "texte": "de\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": ""
+        },
+        "en": {
+          "surtitre": "en surtitle",
+          "texte": "en\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": "en title"
+        },
+        "es": {
+          "texte": "es\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": ""
+        },
+        "fr": {
+          "surtitre": "fr surtitre",
+          "texte": "fr \n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": "fr titre"
+        },
+        "nb": {
+          "texte": "nb\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": ""
+        },
+        "pl": {
+          "texte": "pl \n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": ""
+        },
+        "pl-PL": {
+          "texte": "pl-pl\n\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": ""
+        },
+        "sv": {
+          "texte": "sv \n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": ""
+        },
+        "tr": {
+          "texte": "tr\n\n\n\n\nthis feature is verry good ***yes it is*** \n\n\n# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n    * Item 3a\n    * Item 3b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](/image/Markdown-mark.svg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https://markdownlivepreview.com/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Mermaid diagrams\n```mermaid\ngraph TD\n  A[Start] --> B{Decision}\n  B -->|Yes| C[Finish]\n  B -->|No| D[Alternate]\n```\n\n## Inline code\n\nThis web site is using `markedjs/marked`.\n",
+          "titre": ""
+        }
+      }
     }
   ]
 }
